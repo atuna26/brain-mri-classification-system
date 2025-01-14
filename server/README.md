@@ -34,11 +34,7 @@ This project is a Brain MRI Classification System that includes a frontend built
    npm install
    ```
 
-3. Create a 
-
-.env
-
- file in the root directory and add the following environment variables:
+3. Create a .env file in the root directory and add the following environment variables:
    ```
    MONGO_URL="your_mongo_url"
    JWT_SECRET="your_jwt_secret"
@@ -86,15 +82,11 @@ This project is a Brain MRI Classification System that includes a frontend built
 
 ## Environment Variables
 
-- 
-
-MONGO_URL: The MongoDB connection URL.
-- 
-
-JWT_SECRET: The secret key for JWT authentication.
-- 
-
-PORT: The port on which the backend server will run.
+- MONGO_URL:
+The MongoDB connection URL.
+- JWT_SECRET:
+The secret key for JWT authentication.
+- PORT: The port on which the backend server will run.
 
 ## Project Structure
 
