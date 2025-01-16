@@ -1,5 +1,5 @@
 import styles from "./style"
-import { Navbar,Hero } from "./components"
+import { Navbar,Hero,About, Team, Contact } from "./components"
 
 
 const App = () => (
@@ -10,15 +10,28 @@ const App = () => (
         </div>
       </div>
 
-      <hr className="shadow-glow"/>
+    <hr className="shadow-glow"/>
     <div className={`bg-white ${styles.flexStart}`}>
       <div className={`${styles.boxWidth} `}>
         <Hero/>
       </div>
     </div>
+    <hr/>
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-
+        <About/>
+      </div>
+    </div>
+    <hr/>
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Team/>
+      </div>
+    </div>
+    <hr/>
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Contact/>
       </div>
     </div>
   </div>

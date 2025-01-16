@@ -86,7 +86,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #00215f 0%, #1d2f4d 100%);
 }
 
 .box-shadow {
@@ -169,4 +169,11 @@
 
 .shake {
   animation: shake 12s infinite alternate;
+}
+
+.vertical-hr {
+  width: 1px;
+  height: 100%; 
+  background-color: #000; 
+  border: none; 
 }
