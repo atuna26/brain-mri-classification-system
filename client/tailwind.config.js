@@ -20,6 +20,7 @@ export default {
       },
       boxShadow: {
         'glow': "0px 0px 70px 10px rgba(30,59,138,0.9)",
+        'glow-soft': "0px 0px 15px 2px rgba(30,59,138,0.5)",
         'glow-inset': "inset 0px 0px 15px 2px rgba(30,59,138,0.2)",
 
       },
