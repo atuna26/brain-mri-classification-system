@@ -11,7 +11,7 @@ const App = () => (
       </div>
 
     <hr className="shadow-glow"/>
-    <div className={`bg-white ${styles.flexStart}`}>
+    <div className={`bg-white ${styles.paddingX}  ${styles.flexStart}`}>
       <div className={`${styles.boxWidth} `}>
         <Hero/>
       </div>

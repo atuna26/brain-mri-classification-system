@@ -171,6 +171,29 @@
   animation: shake 12s infinite alternate;
 }
 
+
+@keyframes glow-rotate {
+  0% {
+    border-color: rgba(30, 59, 138, 1);
+  }
+  25% {
+    border-color: rgba(58, 102, 203, 1);
+  }
+  50% {
+    border-color: rgba(92, 172, 255, 1);
+  }
+  75% {
+    border-color: rgba(58, 102, 203, 1);
+  }
+  100% {
+    border-color: rgba(30, 59, 138, 1);
+  }
+}
+
+.animate-glow-soft {
+  animation: glow-rotate 4S infinite linear;
+}
+
 .vertical-hr {
   width: 1px;
   height: 100%; 

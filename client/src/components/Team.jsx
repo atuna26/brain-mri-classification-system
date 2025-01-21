@@ -8,7 +8,7 @@ const Team = () =>(
       {teamMembers.map((member,index)=>(
          //<div className='flex flex-1 flex-col w-1/4' href={member.mail} key={index}>
           <a  className='flex flex-1 flex-col w-1/4' href={member.mail} key={index}>
-            <img src={member.image} className='border-solid border-1 mx-5 border-primary shadow-glow-soft' alt="" />
+            <img src={member.image} className='border-solid border-4 mx-5 md:h-[280px] h-auto border-primary' alt="" />
             <p className={`${styles.paragraph} text-primary mt-5 text-center`}>
             {member.name} <br/> <span className='opacity-50'> {member.role}</span>
           </p>
