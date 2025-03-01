@@ -1,4 +1,4 @@
-import styles from '../style'
+import styles from '../../style'
 const Contact = () =>  (
   <section id="contact" className={`flex flex-row w-full justify-center px-10 rounded-lg animate-glow-soft border-2 shadow-glow-inset border-transparent items-center my-5  ${styles.paddingY}`}>
    <div className='flex flex-col w-1/3 '>
