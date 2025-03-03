@@ -1,6 +1,6 @@
-import styles from "../style";
+import styles from '../../style'
 import {CheckIcon,CpuChipIcon} from '@heroicons/react/24/outline'
-import  brainLogo  from '../assets/brainLogo.png'
+import  brainLogo  from '../../assets/brainLogo.png'
 import { useEffect, useState } from "react";
 
 

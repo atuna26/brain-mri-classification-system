@@ -1,5 +1,4 @@
-import React from 'react'
-import styles from '../style'
+import styles from '../../style'
 import { teamMembers } from '../constants'
 
 const Team = () =>(
