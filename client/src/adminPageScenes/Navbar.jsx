@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {nav.id === "reviews" && reviewToggle && (
         <ul
-          className="absolute left-0 top-full mt-0 bg-white-gradient shadow-lg border border-gray-300 rounded-lg w-48"
+          className="absolute left-0 top-full mt-0 bg-white-gradient shadow-lg border border-gray-300 rounded-lg w-48 z-10"
           onMouseEnter={() => setReviewToggle(true)}
           onMouseLeave={() => setReviewToggle(false)} 
         >
@@ -57,7 +57,7 @@ const Navbar = () => {
       )}
       {nav.id === "aiModels" && modelToggle && (
         <ul
-          className="absolute left-0 top-full mt-0 bg-white-gradient shadow-lg border border-gray-300 rounded-lg w-48"
+          className="absolute left-0 top-full mt-0 bg-white-gradient shadow-lg border border-gray-300 rounded-lg w-48 z-10"
           onMouseEnter={() => setModelToggle(true)}
           onMouseLeave={() => setModelToggle(false)} 
         >
@@ -78,7 +78,7 @@ const Navbar = () => {
       <div className='sm:hidden flex flex-1 justify-end items-center'>
         { toggle ?  <XCircleIcon  className='w-[50px] text-primary object-contain' onClick={() => setToggle((prev)=> !prev)}/> : <Bars3Icon className='w-[50px] text-primary object-contain' onClick={() => setToggle((prev)=> !prev)} /> }
         
-        <div className={`${toggle ? "flex" : "hidden"} p-6 bg-white-gradient shadow-glow-inset absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+        <div className={`${toggle ? "flex" : "hidden"} p-6 bg-white-gradient shadow-glow-inset absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-10`}>
           <ul className='list-none flex flex-col justify-end items-center flex-1'>
             {navLinks.map((nav)=>(
               <li key={nav.id} className={`font-poppins font-normal cursor-pointer text-[16px] text-primary mb-0`}>

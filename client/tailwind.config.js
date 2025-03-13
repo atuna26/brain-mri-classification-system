@@ -14,6 +14,7 @@ export default {
         darkBlue: "#1E40AF", // Darker Blue
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(59, 130, 246, 0.1)",
+        success: "#10B981",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
