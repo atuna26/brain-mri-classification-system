@@ -1,15 +1,15 @@
 
 export const navLinks = [
   {
-    id: "patient-list",
+    id: "admin/all-patient",
     title: "All Patients",
   },
   {
     id: "reviews",
     title: "Reviews",
     subtitles:[
-      {id:"pending",title:"Pending Reviews"},
-      {id:"completed",title:"Completed Reviews"}
+      {id:"admin/reviews/pending-reviews",title:"Pending Reviews"},
+      {id:"admin/reviews/completed-reviews",title:"Completed Reviews"}
     ]
   },
   {

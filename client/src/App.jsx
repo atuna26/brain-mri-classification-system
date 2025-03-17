@@ -4,6 +4,9 @@ import DashboardPage from "./adminPageScenes/DashboardPage";
 import LoginPage from "./LoginPage";
 import Navbar from "./adminPageScenes/Navbar";
 import styles from "./style";
+import PatientList from "./adminPageScenes/components/PatientList";
+import CompletedReviews from "./adminPageScenes/components/Reviews/CompletedReviews";
+import PendingReviews from "./adminPageScenes/components/Reviews/PendingReviews";
 
 function App() {
   const isAuth = true; // isAuth değişkeni burada tanımlanıyor
@@ -23,6 +26,9 @@ function App() {
               <Routes>
                 <Route path="/admin" element={<Navigate to="/admin/dashboard"/>} />
                 <Route path="/admin/dashboard" element={<DashboardPage />} />
+                <Route path="/admin/all-patient" element={<PatientList />} />
+                <Route path="/admin/reviews/completed-reviews" element={<CompletedReviews />} />
+                <Route path="/admin/reviews/pending-reviews" element={<PendingReviews />} />
               </Routes>
             </div>
           </div>
