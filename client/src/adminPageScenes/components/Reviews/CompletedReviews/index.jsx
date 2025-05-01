@@ -6,7 +6,10 @@ const CompletedReviews = () => {
         <div className="w-full overflow-x-auto">
           <table className="table-auto w-full border-collapse border border-gray-400 overflow-hidden rounded-b-lg shadow-lg">
             <caption className='caption-top text-center font-semibold text-white text-base md:text-xl lg:text-2xl rounded-t-lg bg-primary py-3 md:py-6'>
-              Completed Reviews
+            <div className="w-full relative flex justify-center items-center">
+                    <p>Completed Reviews</p> 
+                    <button type="button" className="absolute right-0 text-white bg-primary font-medium rounded-lg text-base px-5 py-2.5 me-2 border border-white">New Review</button> 
+                  </div> 
             </caption>
             <thead className="bg-primary">
               <tr>

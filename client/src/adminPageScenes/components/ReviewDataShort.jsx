@@ -3,7 +3,7 @@ import brainMri from "../../assets/brainMri.jpg";
 
 const ReviewDataShort = () => {
   return (
-    <div className="w-full overflow-x-auto">
+    <div className="w-full overflow-x-auto flex flex-col justify-center items-center">
       <table className="table-auto w-full border-collapse border border-gray-400 overflow-hidden rounded-b-lg shadow-lg">
         <caption className='caption-top text-center text-lg font-semibold text-white text-base md:text-xl lg:text-2xl rounded-t-lg bg-primary py-3 md:py-6'>
           Completed Review
@@ -30,6 +30,8 @@ const ReviewDataShort = () => {
           ))}
         </tbody>
       </table>
+      <button type="button" className="text-primary bg-white font-medium rounded-lg text-base px-5 py-2.5 me-2 my-3 border border-primary self-end">See more</button> 
+
     </div>
   );
 };
